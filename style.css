@@ -48,6 +48,12 @@ h5:hover {
     text-align: center;
 }
 
+.sing_box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
 .system_name {
     /*定位對齊*/
     position: relative;
@@ -97,4 +103,30 @@ canvas {
     background: #eee;
     display: block;
     margin: 0 auto;
+}
+
+
+
+
+p,
+a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    color: #777;
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.info {
+    margin: 14px auto;
+    text-align: justify;
+    font-size: 18px;
+    color: #999;
+}
+
+a {
+    color: #3377ee;
 }
